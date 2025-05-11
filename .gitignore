@@ -15,3 +15,5 @@
 # Ignore Jupyter and logs
 .ipynb_checkpoints/
 *.log
+
+**/.env
