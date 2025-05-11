@@ -29,3 +29,21 @@ if groq_api_key:
     print(str(response))
 else:
     print("GROQ_API key not found.")
+
+# from llama_index.core.tools import FunctionTool
+# from llama_index.llms.openai import OpenAI
+
+
+# def generate_song(name: str, artist: str) -> Song:
+#     """Generates a song with provided name and artist."""
+#     return {"name": name, "artist": artist}
+
+
+# tool = FunctionTool.from_defaults(fn=generate_song)
+
+# llm = OpenAI(model="gpt-4o")
+# response = llm.predict_and_call(
+#     [tool],
+#     "Pick a random song for me",
+# )
+# print(str(response))

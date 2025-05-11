@@ -1,0 +1,6 @@
+llama-index-llms-groq
+python-dotenv
+llama-index
+llama-index-tools-yahoo-finance
+llama-index-llms-gemini
+llama-index-tools-tavily-research
